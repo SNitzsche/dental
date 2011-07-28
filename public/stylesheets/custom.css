@@ -1,0 +1,15 @@
+body {
+	font-size:1em;
+	background-color:#C0C0C0;
+	
+}
+#container {
+	margin:auto;
+	width:50em;
+	background-color:white;
+}
+#header {
+	border-bottom:1px solid black;
+	background-color:#336699;
+	margin:0;
+}

@@ -1,6 +1,8 @@
 body {
 	font-size:1em;
 	background-color:#C0C0C0;
+	padding:0;
+
 	
 }
 #container {
@@ -9,7 +11,8 @@ body {
 	background-color:white;
 }
 #header {
-	border-bottom:1px solid black;
-	background-color:#336699;
-	margin:0;
+	border-bottom:.5em solid #336699;
+	border-top:.5em solid #336699;
+	
+	
 }

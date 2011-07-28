@@ -8,7 +8,8 @@ body {
 #container {
 	margin:auto;
 	width:50em;
-	background-color:white;
+	background-image:url(../images/em.jpg);
+	height:50em;
 }
 #header {
 	border-bottom:.5em solid #336699;

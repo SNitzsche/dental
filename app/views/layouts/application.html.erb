@@ -7,15 +7,17 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-	<div id="header">Header goes here
-		
-	</div>
+
 	<div id="container">
-		
-		<div id="nav">Navigation goes here</div>
-		<div id="main_content">	
+		<div id="header">Header goes here - This is where an image of some kind will go -- logo???
+
+		</div>
+		<div id="nav" class="round box_shadow">Navigation goes here</div>
+		<div id="main_content" class="round box_shadow">	
 			<%= yield %>
 		</div>
+		<div id="footer">Additional links can be included here.  Contact information etc
+			</div>
 	</div>
 
 </body>

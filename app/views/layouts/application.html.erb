@@ -9,10 +9,15 @@
 <body>
 
 	<div id="container">
-		<div id="header">Header goes here - This is where an image of some kind will go -- logo???
+		<div id="header">Need to find a good image or two -- Logo???????
 
 		</div>
-		<div id="nav" class="round box_shadow">Navigation goes here</div>
+		<div id="nav" class="round box_shadow">
+			<ul>
+				<li class="round"><%=link_to "Categories", categories_path %></li>
+				<li class="round"><%=link_to "Postings", postings_path %></li>
+				</ul>
+		</div>
 		<div id="main_content" class="round box_shadow">	
 			<%= yield %>
 		</div>

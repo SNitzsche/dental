@@ -2,10 +2,19 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 gem 'ruby-mysql'
-gem 'cucumber'
-gem 'rspec'
-gem 'heroku'
 gem "rake", "0.8.7"
+gem 'heroku'
+
+group :test do
+	gem 'cucumber-rails'
+	gem 'capybara'
+	gem 'database_cleaner'
+end
+group :test, :development do
+	gem 'rspec-rails', '~>2.5'
+end
+	
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
